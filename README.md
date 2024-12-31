@@ -1,0 +1,2 @@
+[x] multigpu
+[x] wandb
