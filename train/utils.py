@@ -4,7 +4,18 @@ import numpy as np
 
 def get_batch_label(texts, prompt_text, label_map):
     label_vectors = torch.zeros(0)
-    if len(label_map) != 7:
+
+    if len(label_map) == 17:
+        for text in texts:
+            label_vector = torch.zeros(2)
+            if text == 'normal':
+                label_vector[0] = 1
+            else:
+                label_vector[1] = 1
+            label_vector = label_vector.unsqueeze(0)
+            label_vectors = torch.cat([label_vectors, label_vector], dim=0)
+
+    elif len(label_map) != 7:
         if len(label_map) == 2:
             for text in texts:
                 label_vector = torch.zeros(2)

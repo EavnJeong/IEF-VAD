@@ -1,0 +1,19 @@
+{
+    "car": "car",
+    "fall": "fall",
+    "jumping": "jumping",
+    "robbery": "robbery",
+    "step": "step",
+    "vaudeville": "vaudeville",
+    "chasing": "chasing",
+    "fighting": "fighting",
+    "monocycle": "monocycle",
+    "running": "running",
+    "stoop": "stoop",
+    "vehicle": "vehicle",
+    "circuit": "circuit",
+    "hurdle": "hurdle",
+    "normal": "normal",
+    "skateboard": "skateboard",
+    "throwing_object": "throwing_object"
+}

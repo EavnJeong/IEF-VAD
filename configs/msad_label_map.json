@@ -1,0 +1,14 @@
+{
+    "Normal": "normal",
+    "Assault": "assault",
+    "Explosion": "explosion",
+    "Fighting": "fighting",
+    "Fire": "fire",
+    "Object_falling": "object_falling",
+    "People_falling": "people_falling",
+    "Robbery": "robbery",
+    "Shooting": "shooting",
+    "Traffic_accident": "traffic_accident",
+    "Vandalism": "vandalism",
+    "Water_incident": "water_incident"
+}
