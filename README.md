@@ -50,7 +50,10 @@ Python==3.9.12
 ## Embedding Extract
 Extract Image embbeddings and Synthetic Event embeddings with CLIP weights
 
-- Event ([LINK](https://drive.google.com/drive/folders/1mvOWqPARya4CTM9iioE8MpqWyl4olBHx?usp=sharing))
+### CLIP Event weights ([LINK](https://drive.google.com/drive/folders/1uPAwjgcBL-FwQjhoxmeh-1sbtkvIkRy5?usp=sharing)), From ([LINK](https://arxiv.org/abs/2412.03093)) 
+
+### Embeddings ([LINK](https://drive.google.com/drive/folders/11b6tiAa8Lsbd9hvO1F1U9oEdWOGja89H?usp=sharing))
+
 ---
     cd extracting
     
@@ -85,7 +88,7 @@ DATASET in ['ucfcrime', 'xd', 'shang', 'msad']
 ## Test
 ![Uncertainty Change](figure/fig3.png)
 
-Weight file in [LINK](https://drive.google.com/drive/folders/1mvOWqPARya4CTM9iioE8MpqWyl4olBHx?usp=sharing)
+### Checkpoint files in [LINK](https://drive.google.com/drive/folders/12pf7kZuICRlgzE9WyeXrKZi_B5RLoqxh?usp=sharing).
 
     # Performance and visualization
     python test.py --ckpt_path checkpoints/ucf/ucf.pth --exp_name ucf
