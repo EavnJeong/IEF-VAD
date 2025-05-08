@@ -51,6 +51,7 @@ Python==3.9.12
 Extract Image embbeddings and Synthetic Event embeddings with CLIP weights
 
 ### CLIP Event weights ([LINK](https://drive.google.com/drive/folders/1uPAwjgcBL-FwQjhoxmeh-1sbtkvIkRy5?usp=sharing)), From ([LINK](https://arxiv.org/abs/2412.03093)) 
+also possible to download ([HuggingFace](https://huggingface.co/Eavn/event-clip))
 
 ### Embeddings ([LINK](https://drive.google.com/drive/folders/11b6tiAa8Lsbd9hvO1F1U9oEdWOGja89H?usp=sharing))
 
