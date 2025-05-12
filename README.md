@@ -14,7 +14,7 @@ Python==3.9.12
     conda env create -f env.yaml
 
 
-## Dataset Prepare
+## 🎞️ Dataset Preparation
 
 ### UCF-Crime  ([LINK](https://www.crcv.ucf.edu/research/real-world-anomaly-detection-in-surveillance-videos/))
 
@@ -52,13 +52,17 @@ Python==3.9.12
        │   ...
 
 
-## Embedding Extract
+## 🧠 Embedding Extraction
+
 Extract Image embbeddings and Synthetic Event embeddings with CLIP weights
 
-### CLIP Event weights is possible to use in ([HERE](https://github.com/EavnJeong/Event_Modality_Application))
-also possible to download ([HuggingFace](https://huggingface.co/Eavn/event-clip))
+- CLIP Event Weights:  
+  🔗 [GitHub](https://github.com/EavnJeong/Event_Modality_Application)  
+  🤗 [HuggingFace](https://huggingface.co/Eavn/event-clip)
 
-### Embeddings ([LINK](https://drive.google.com/drive/folders/11b6tiAa8Lsbd9hvO1F1U9oEdWOGja89H?usp=sharing))
+- Pre-extracted Embeddings:  
+  📁 [Google Drive](https://drive.google.com/drive/folders/11b6tiAa8Lsbd9hvO1F1U9oEdWOGja89H?usp=sharing)
+
 
 ---
     cd extracting
@@ -69,7 +73,7 @@ also possible to download ([HuggingFace](https://huggingface.co/Eavn/event-clip)
     # Extract Synthetic event and preprocessing by CLIP
     python ucf_gen_event.py --save_dir ".../rgb" --save_dir "e.g., .../event_thr_10" --clip_ckpt "event clip checkpoint" 
 
-## Config 
+## ⚙️ Configuration
 
 Generate training list and ground truth label(0, 1) for anomaly detection for generated embeddings.
 
@@ -83,18 +87,19 @@ Generate training list and ground truth label(0, 1) for anomaly detection for ge
     # Generate frame based anomaly label(0, 1) sequences.
     python ucf_generate_gt.py --csv_path "test.csv path generate above." --save_path "gt generated path"
 
-## Training
+## 🏋️ Training
 ![Classwise Anomaly score](figure/fig2.png)
 
 DATASET in ['ucfcrime', 'xd', 'shang', 'msad']
 
     python main.py --dataset "DATASET"
 
+## 🧪 Testing
 
-## Test
+Checkpoint files available at:  
+📁 [Google Drive](https://drive.google.com/drive/folders/12pf7kZuICRlgzE9WyeXrKZi_B5RLoqxh?usp=sharing)
+
 ![Uncertainty Change](figure/fig3.png)
-
-### Checkpoint files in [LINK](https://drive.google.com/drive/folders/12pf7kZuICRlgzE9WyeXrKZi_B5RLoqxh?usp=sharing).
 
     # Performance and visualization
     python test.py --ckpt_path checkpoints/ucf/ucf.pth --exp_name ucf
