@@ -1,4 +1,8 @@
-# Uncertainty-Weighted Image-Event Multimodal Fusion for Video Anomaly Detection
+# IEF-VAD (Image-Event Fusion for Video Anomaly Detection)
+
+This is the official Pytorch implementation of the paper "Uncertainty-Weighted Image-Event Multimodal Fusion for Video Anomaly Detection".
+
+| Sungheon Jeong, Jihong Park, Mohsen Imani
 
 ![Architecture](figure/fig1.png)
 
