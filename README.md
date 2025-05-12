@@ -103,6 +103,16 @@ DATASET in ['ucfcrime', 'xd', 'shang', 'msad']
     python test2.py --dataset xd --ckpt_path checkpoints/xd/xd.pth
     python test2.py --dataset msad --ckpt_path checkpoints/msad/msad.pth
 
+## 📖 Citation
+
+If you find our work useful, please cite:
+
+    @article{jeong2025uncertainty,
+      title={Uncertainty-Weighted Image-Event Multimodal Fusion for Video Anomaly Detection},
+      author={Jeong, Sungheon and Park, Jihong and Imani, Mohsen},
+      journal={arXiv preprint arXiv:2505.02393},
+      year={2025}
+    }
 
 ## Acknowledgement
 
