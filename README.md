@@ -4,6 +4,8 @@ This is the official Pytorch implementation of the paper "Uncertainty-Weighted I
 
 | Sungheon Jeong, Jihong Park, Mohsen Imani
 
+📄 [Uncertainty-Weighted Image-Event Multimodal Fusion for Video Anomaly Detection](https://arxiv.org/abs/2505.02393)
+
 ![Architecture](figure/fig1.png)
 
 ## Environment
